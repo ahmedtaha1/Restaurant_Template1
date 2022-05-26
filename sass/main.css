@@ -716,6 +716,7 @@ footer ul li a {
   }
   footer ul li {
     border: none;
+    padding-right: unset;
   }
 }
 
