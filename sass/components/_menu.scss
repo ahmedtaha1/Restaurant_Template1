@@ -51,7 +51,6 @@
   }
   i {
     font-size: 35px;
-
     position: absolute;
     top: 60%;
     width: 17px;
@@ -59,9 +58,10 @@
     cursor: pointer;
   }
   .right {
-    right: 15px;
+    right: 18px;
   }
   .left {
-    left: 15px;
+    left: 2px;
+    top: 61%;
   }
 }

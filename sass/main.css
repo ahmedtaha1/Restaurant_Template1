@@ -492,11 +492,12 @@ header.sticky .nav-item {
 }
 
 .menu-section .right {
-  right: 15px;
+  right: 18px;
 }
 
 .menu-section .left {
-  left: 15px;
+  left: 2px;
+  top: 61%;
 }
 
 .testi-section {
