@@ -1,0 +1,28 @@
+.chief-section {
+  height: 100%;
+  .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    .chief-info {
+      text-align: right;
+    }
+    @media (max-width: 767px) {
+      & {
+        grid-template-columns: 100%;
+        gap: 20px;
+        .title {
+          font-size: 25px;
+        }
+        .chief-info {
+          text-align: center;
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) and(max-width:991px) {
+    .title {
+      font-size: 35px;
+    }
+  }
+}

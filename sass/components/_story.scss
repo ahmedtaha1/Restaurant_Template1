@@ -1,0 +1,66 @@
+.story-section {
+  @media (min-width: 768px) {
+    padding-top: 180px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .story-info {
+      width: 50%;
+      .author {
+        margin: 75px 0 115px;
+      }
+    }
+    .vedio {
+      width: 40%;
+      position: relative;
+      img {
+        width: 100%;
+        min-height: 70%;
+        position: relative;
+        z-index: -1;
+      }
+      &::before {
+        content: "";
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: -60px;
+        bottom: -30px;
+        background-image: url(../images/dots.png);
+        background-repeat: repeat;
+        z-index: -1;
+      }
+    }
+    @media (max-width: 991px) {
+      .title {
+        font-size: 30px;
+      }
+      .btn {
+        padding: 12px 20px;
+        font: 600 15px "Playfair Display";
+      }
+    }
+    @media (max-width: 767px) {
+      & {
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: center;
+        .story-info {
+          width: 100%;
+          .author {
+            margin: 55px 0 95px;
+          }
+        }
+        .vedio {
+          width: 100%;
+          margin: 35px 0;
+          img {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}

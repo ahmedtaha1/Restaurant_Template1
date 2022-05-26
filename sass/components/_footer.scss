@@ -1,0 +1,53 @@
+footer {
+  background-color: #131a21;
+  text-align: center;
+  padding: 50px 20px 30px;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0 80px;
+    li {
+      transition: 0.3s;
+      border-right: 1px solid #666666;
+      padding-right: 15px;
+      &:last-of-type {
+        border: none;
+      }
+      a {
+        color: #fff;
+      }
+    }
+    @media (max-width: 767px) {
+      & {
+        flex-direction: column;
+        li {
+          border: none;
+        }
+      }
+    }
+  }
+
+  .social {
+    color: #fff;
+    i {
+      margin-right: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  }
+  a:hover,
+  i:hover {
+    color: #666666;
+  }
+  .ahmed {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    i {
+      color: red;
+    }
+  }
+}

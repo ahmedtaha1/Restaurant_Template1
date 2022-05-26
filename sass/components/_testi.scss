@@ -1,0 +1,26 @@
+.testi-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/bg-2.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+  padding: 90px 15px;
+
+  .testi-info {
+    i {
+      font-size: 35px;
+      margin-bottom: 50px;
+    }
+    p {
+      font-size: 25px;
+      font-weight: 700;
+      color: inherit;
+    }
+    h5 {
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 70px;
+    }
+  }
+}
