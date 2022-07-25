@@ -422,84 +422,6 @@ header.sticky .nav-item {
   }
 }
 
-.menu-section {
-  background: url(../../images/pattern.jpg) repeat;
-  padding-bottom: 30px;
-  text-align: center;
-  position: relative;
-}
-
-.menu-section .slider {
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.menu-section .slider .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 50px;
-  overflow: hidden;
-}
-
-.menu-section .slider .cards .card {
-  background-color: #fff;
-  padding: 20px;
-}
-
-.menu-section .slider .cards .card .card-img {
-  margin: 0 auto 60px;
-  width: 280px;
-  position: relative;
-}
-
-.menu-section .slider .cards .card .card-img .card-price {
-  position: absolute;
-  background-color: #fff;
-  font-size: 35px;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  line-height: 80px;
-  left: 100px;
-  bottom: -35px;
-  -webkit-box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4);
-          box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4);
-}
-
-@media (max-width: 991px) {
-  .menu-section .slider {
-    padding: 0 30px;
-  }
-  .menu-section .slider .cards {
-    gap: 40px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .menu-section .slider {
-    padding: 0 15px;
-  }
-}
-
-.menu-section i {
-  font-size: 35px;
-  position: absolute;
-  top: 60%;
-  width: 17px;
-  margin-top: -20px;
-  cursor: pointer;
-}
-
-.menu-section .right {
-  right: 20px;
-}
-
-.menu-section .left {
-  left: 0;
-  top: 61%;
-}
-
 .testi-section {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/bg-2.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/bg-2.jpg");
@@ -508,6 +430,7 @@ header.sticky .nav-item {
   text-align: center;
   color: #fff;
   padding: 90px 15px;
+  margin-top: 40px;
 }
 
 .testi-section .testi-info i {
